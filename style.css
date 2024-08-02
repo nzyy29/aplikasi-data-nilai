@@ -1,0 +1,39 @@
+body {
+    background-color:#00BFFF; /* Warna latar belakang abu-abu muda */
+    font-family: Arial black, sans-serif; /* Contoh jenis huruf */
+    font-size: 25px;
+    margin: 0; /* Hapus margin default */
+    padding: 0; /* Hapus padding default */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 600px; /* Lebar maksimum kontainer */
+    text-align: top-left; /* Pusatkan konten di dalam kontainer */
+    padding: 40px; /* Tambahkan padding lebih besar pada kontainer */
+}
+.card {
+    border: 1px solid #ccc; /* Contoh border untuk card */
+    border-radius: 12px; /* Sudut melengkung lebih besar untuk card */
+    background-color: #fff; /* Warna latar belakang putih untuk card */
+    box-shadow:  8px 16px rgba(0, 0, 0, 0.1); /* Bayangan kotak lebih jelas */
+    padding: 30px; /* Tambahkan padding lebih besar di dalam card */
+}
+.card-body {
+    padding: 20px; /* Padding di dalam card body */
+}
+.btn-logout {
+    background-color: #007bff; /* Warna latar belakang biru untuk tombol */
+    color: #fff; /* Warna teks putih */
+    text-decoration: none; /* Hapus garis bawah dari tautan */
+    padding: 12px 24px; /* Padding untuk tombol lebih besar */
+    border-radius: 6px; /* Sudut melengkung lebih besar untuk tombol */
+    display: inline-block; /* Tampilkan sebagai inline-block */
+    font-size: 20px; /*Ukuran  font lebih besar */
+}
+.btn-logout:hover {
+    background-color: #00BFFF; /* Biru lebih gelap saat dihover */
+}
